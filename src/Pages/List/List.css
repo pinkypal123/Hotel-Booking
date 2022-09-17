@@ -91,3 +91,13 @@
 .listResult {
     flex: 3;
   }
+  @media screen and (max-width:600px){ 
+   .listWrapper{
+    display: flex;
+    flex-wrap: wrap;
+   } 
+   .listSearch{
+position:relative;
+margin-left: 20px;
+   }
+  }

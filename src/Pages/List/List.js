@@ -20,7 +20,6 @@ export default function List() {
     return (
         <>
             <Navbar />
-            {/* <Header type="list" /> */}
             <HeaderHome/>
             <div className="listContainer">
                 <div className="listWrapper">
